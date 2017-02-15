@@ -33,5 +33,12 @@ namespace LibraryApp.Controllers
 
             return View();
         }
+        
+          public ActionResult FromRemote()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
